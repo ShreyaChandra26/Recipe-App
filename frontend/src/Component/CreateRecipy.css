@@ -1,0 +1,160 @@
+.height{
+    height: 10vh;
+    margin-top: 100px;
+}
+.heights{
+
+    margin-left: 350px;
+}
+
+.form{
+    position: relative;
+}
+
+.form .fa-search{
+    position: absolute;
+    top:20px;
+    left: 20px;
+    color: #9ca3af;
+
+}
+
+.form span{
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db;
+
+}
+
+.left-pan{
+    padding-left: 7px;
+}
+
+.left-pan i{
+   padding-left: 10px;
+}
+
+.form-input{
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px;
+}
+
+.form-input:focus{
+    box-shadow: none;
+    border:none;
+}
+
+
+.recipiedat {
+    width: 80%;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(150px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(150px, 1fr));
+  }
+  
+  #user-name {
+    font-weight: 600;
+    color: skyblue;
+    margin-right: 5px;
+    margin-top: 10px;
+  }
+  
+  .cardss {
+    width: 12rem;
+  }
+  
+  #proposals-title {
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    margin-left: 170px;
+    margin-top: 20px;
+    text-decoration: underline;
+  }
+  
+  .cards-body {
+    border: 1px solid #cccccc;
+    height: 125px;
+    height: auto;
+  }
+  
+  .cards-title {
+    margin-top: 0px;
+  }
+  
+  @media (max-width: 1180px) {
+    .recipiedat {
+      margin-left: 100px;
+      grid-template-columns:repeat(auto-fit, minmax(150px,1fr));
+    }
+  
+  }
+  
+  .cards-body {
+    font-weight: 700;
+    text-align: justify;
+    padding: 5px;
+
+  }
+
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: #242a33;
+}
+
+.form-outline .form-control {
+  min-height: auto;
+  padding: 0.32rem 0.75rem;
+  border: 2;
+  background: transparent;
+  transition: all .2s linear;
+}
+.mb-4 {
+  margin-bottom: 1rem!important;
+}
+
+
+.container{  
+  text-align: center;   
+  padding-top: 14px;  
+  }  
+
+  #btn{  
+  font-size: 25px;  
+  }  
+
+
+
+.Model-Wrapper{
+position: fixed;
+left: 0;
+right: 0;
+bottom: 0;
+top: 0;
+background-color: #9ca3af;
+  }
+
+  .Model-cointainer{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  max-width: 30rem;
+  transform: translate(-50%,-50%);
+  background-color: aliceblue;
+  }
+
+  .Paybtn{
+    height: 40px;
+    width: 137px;
+    /* margin: auto; */
+    align-content: center;
+    margin-left: 33%;
+    margin-bottom: 8px;
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+  }
